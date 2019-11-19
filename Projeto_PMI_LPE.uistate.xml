@@ -15,11 +15,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="3">ajuda</layout>
         <layout order="4">fase1</layout>
         <layout order="5">fase2</layout>
-        <layout active="1" order="6">fase3</layout>
+        <layout order="6">fase3</layout>
         <layout order="7">fase4</layout>
         <layout order="8">fase5</layout>
         <layout order="9">fase6</layout>
-        <event-sheet order="0">Event sheet 1</event-sheet>
+        <event-sheet active="1" order="0">Event sheet 1</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -143,5 +143,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/moedas4/" />
         <folder expanded="1" path="animation-folder/moedas5/" />
         <folder expanded="1" path="animation-folder/dinossauro/" />
+        <folder expanded="1" path="animation-folder/opcaoSeta/" />
+        <folder expanded="1" path="animation-folder/opcaoSeta2/" />
+        <folder expanded="1" path="animation-folder/opcaoSeta3/" />
+        <folder expanded="1" path="animation-folder/errado/" />
     </folders-expanded>
 </c2uistate>

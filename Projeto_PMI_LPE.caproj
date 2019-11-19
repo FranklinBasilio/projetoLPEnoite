@@ -306,7 +306,7 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="347237951686358" speed="5">
-                    <frame duration="1" hotspotX="0.001221" hotspotY="0.0016129" original-source="C:\Users\Franklin\Desktop\pmi\telaPreta.jpg" />
+                    <frame duration="1" hotspotX="0.037851" hotspotY="0.167742" original-source="C:\Users\Franklin\Desktop\pmi\telaPreta.jpg" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -1934,7 +1934,7 @@
         </object-type>
         <object-type name="fundoCeu3" sid="125878386842128">
             <plugin id="TiledBg" />
-            <texture original-source="C:\Users\Franklin\Desktop\fundo.png" />
+            <texture original-source="C:\Users\Franklin\Desktop\img\Sprite_background_effects_0013.png" />
         </object-type>
         <object-type name="pisogramado" sid="919512416705783">
             <plugin id="Sprite" />
@@ -2738,6 +2738,17 @@
         </object-type>
         <object-type name="dinossauro" sid="944870256772449">
             <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="direcaoDinossauro" sid="939313988964078" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Platform" sid="600516449036962">
+                    <behavior id="Platform" />
+                </behavior-type>
+                <behavior-type name="Solid" sid="959763054214760">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="6" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="801427449671232" speed="7">
                     <frame duration="1" hotspotX="0.501484" hotspotY="1" original-source="C:\Users\Franklin\Desktop\img\dino1.png">
@@ -2815,6 +2826,139 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="cenario" sid="800378144727113">
+            <plugin id="TiledBg" />
+            <texture original-source="D:\2019_2\pmi\planoDeFundo.png" />
+        </object-type>
+        <object-type name="fundoDinossauro" sid="213621699726940">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\Franklin\Desktop\img\fundodinossauro.png" />
+        </object-type>
+        <object-type name="informacaoGuia" sid="251796771433712">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="chaoTerra2" sid="266649439372441">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Solid" sid="937706141342142">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="C:\Users\Franklin\Desktop\pmi\chaoTerra.png" />
+        </object-type>
+        <object-type name="opcaoSeta" sid="113682540574785">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="822009302703249" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="chaoTerra3" sid="925090658047089">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Solid" sid="429204970718471">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="C:\Users\Franklin\Desktop\pmi\chaoTerra.png" />
+        </object-type>
+        <object-type name="chaoTerra4" sid="723472938341649">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Solid" sid="786672362829301">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="C:\Users\Franklin\Desktop\pmi\chaoTerra.png" />
+        </object-type>
+        <object-type name="pisoDuro29" sid="342893235516752">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Solid" sid="306601548657559">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <texture />
+        </object-type>
+        <object-type name="pisoDuro30" sid="893810445858947">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Solid" sid="943745747055454">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <texture />
+        </object-type>
+        <object-type name="chaoTerra5" sid="294825847745431">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Solid" sid="396040264583108">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="C:\Users\Franklin\Desktop\pmi\chaoTerra.png" />
+        </object-type>
+        <object-type name="opcaoSeta2" sid="493896933602500">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="357555792905333" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="pisoDuro31" sid="999761679966792">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Solid" sid="165135057322024">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <texture />
+        </object-type>
+        <object-type name="pisoDuro32" sid="583237246366242">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Solid" sid="779994294985393">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <texture />
+        </object-type>
+        <object-type name="opcaoSeta3" sid="934879809623730">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="969672861349018" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="chaoTerra6" sid="274823133327506">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Solid" sid="853111993145490">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="C:\Users\Franklin\Desktop\pmi\chaoTerra.png" />
+        </object-type>
+        <object-type name="pisoDuro33" sid="424740643777268">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Solid" sid="297315481682868">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <texture />
+        </object-type>
+        <object-type name="errado" sid="652188923764412">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="169464752196367" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -2822,11 +2966,11 @@
         <layout>fase1.xml</layout>
         <layout>fase2.xml</layout>
         <layout>fase3.xml</layout>
-        <layout>ajuda.xml</layout>
-        <layout>guiaDeInstrucao.xml</layout>
         <layout>fase4.xml</layout>
         <layout>fase5.xml</layout>
         <layout>fase6.xml</layout>
+        <layout>ajuda.xml</layout>
+        <layout>guiaDeInstrucao.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Event sheet 1.xml</event-sheet>

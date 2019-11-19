@@ -5,7 +5,7 @@
     <event-sheet>Event sheet 1</event-sheet>
     <size>
         <width>854</width>
-        <height>480</height>
+        <height>305</height>
     </size>
     <margins>
         <horizontal>500</horizontal>
@@ -31,7 +31,7 @@
             <instances>
                 <instance type="telaPreta" uid="22">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
@@ -50,14 +50,14 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>2.993896484</x>
-                        <y>-10.991934776</y>
+                        <x>21.77286911</x>
+                        <y>9.640319824</y>
                         <z>0</z>
-                        <width>849</width>
-                        <height>485</height>
+                        <width>896</width>
+                        <height>608</height>
                         <depth>0</depth>
-                        <hotspotX>0.001221001</hotspotX>
-                        <hotspotY>0.001612903</hotspotY>
+                        <hotspotX>0.037851039</hotspotX>
+                        <hotspotY>0.167741939</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -81,6 +81,28 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
+                <instance type="fundoCeu" uid="19">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>429.975921631</x>
+                        <y>165.033035278</y>
+                        <z>0</z>
+                        <width>896</width>
+                        <height>363</height>
+                        <depth>0</depth>
+                        <hotspotX>0.498054475</hotspotX>
+                        <hotspotY>0.506726444</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
                 <instance type="chaoTerra" uid="11">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -97,35 +119,13 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>0</x>
-                        <y>352</y>
+                        <y>299</y>
                         <z>0</z>
                         <width>854</width>
                         <height>128</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="fundoCeu" uid="19">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>424.363006592</x>
-                        <y>165.033065796</y>
-                        <z>0</z>
-                        <width>884.730285645</width>
-                        <height>363.000640869</height>
-                        <depth>0</depth>
-                        <hotspotX>0.498054475</hotspotX>
-                        <hotspotY>0.506726444</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -184,9 +184,9 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>0</x>
-                        <y>327</y>
+                        <y>278</y>
                         <z>0</z>
-                        <width>853</width>
+                        <width>864</width>
                         <height>32</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>

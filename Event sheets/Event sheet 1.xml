@@ -501,125 +501,6 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="" sid="940093910370906" title="Primeira Muralha">
-            <sub-events>
-                <comment>Primeira Muralha</comment>
-                <event-block sid="120362166853950">
-                    <conditions>
-                        <condition id="0" name="On collision with another object" sid="503136131381333" type="personagem">
-                            <param id="0" name="Object">parede</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-15" name="Set visible" sid="894338837947616" type="balaoPixel">
-                            <param id="0" name="Visibility">1</param>
-                        </action>
-                        <action id="-15" name="Set visible" sid="681948423558196" type="textoInformacao">
-                            <param id="0" name="Visibility">1</param>
-                        </action>
-                        <action id="0" name="Set text" sid="426398516724048" type="textoInformacao">
-                            <param id="0" name="Text">&quot;Quantas flores existem do outro lado do muro?&quot;</param>
-                        </action>
-                        <action id="-16" name="Wait" sid="985686490931092" type="System">
-                            <param id="0" name="Seconds">1.0</param>
-                        </action>
-                        <action id="-15" name="Set visible" sid="768499729013055" type="opcao1">
-                            <param id="0" name="Visibility">1</param>
-                        </action>
-                        <action id="-15" name="Set visible" sid="417336039065358" type="opcao2">
-                            <param id="0" name="Visibility">1</param>
-                        </action>
-                        <action id="-15" name="Set visible" sid="326936102864664" type="opcao3">
-                            <param id="0" name="Visibility">1</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="644448139420477">
-                    <conditions>
-                        <condition id="3" name="On touched object" sid="476679538362162" type="Touch">
-                            <param id="0" name="Object">opcao2</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-9" name="Destroy" sid="403177932581146" type="parede" />
-                        <action id="0" name="Play" sid="159894514310907" type="Audio">
-                            <param id="0" name="Audio file">mario_coin_sound_1</param>
-                            <param id="2" name="Loop">0</param>
-                            <param id="3" name="Volume">0</param>
-                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
-                        </action>
-                        <action id="-9" name="Destroy" sid="967185650048696" type="balaoPixel" />
-                        <action id="-9" name="Destroy" sid="860841193076971" type="textoInformacao" />
-                        <action id="-15" name="Set visible" sid="511318967426685" type="opcao1">
-                            <param id="0" name="Visibility">0</param>
-                        </action>
-                        <action id="-15" name="Set visible" sid="193864239732903" type="opcao2">
-                            <param id="0" name="Visibility">0</param>
-                        </action>
-                        <action id="-15" name="Set visible" sid="190357060285458" type="opcao3">
-                            <param id="0" name="Visibility">0</param>
-                        </action>
-                        <action id="-9" name="Destroy" sid="466010163477454" type="planta" />
-                    </actions>
-                </event-block>
-            </sub-events>
-        </event-group>
-        <event-group description="" sid="210796554115906" title="Segunda Muralha">
-            <sub-events>
-                <comment>Primeira Muralha</comment>
-                <event-block sid="916034101255314">
-                    <conditions>
-                        <condition id="0" name="On collision with another object" sid="359619807596785" type="personagem">
-                            <param id="0" name="Object">parede8</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-15" name="Set visible" sid="756835038039769" type="balaoPixel2">
-                            <param id="0" name="Visibility">1</param>
-                        </action>
-                        <action id="-15" name="Set visible" sid="427091016284110" type="textoInformacao2">
-                            <param id="0" name="Visibility">1</param>
-                        </action>
-                        <action id="0" name="Set text" sid="487656967974590" type="textoInformacao2">
-                            <param id="0" name="Text">&quot;Quantas bananas tem?&quot;</param>
-                        </action>
-                        <action id="-16" name="Wait" sid="255560060662995" type="System">
-                            <param id="0" name="Seconds">1.0</param>
-                        </action>
-                        <action id="-15" name="Set visible" sid="608536935615229" type="caixote5">
-                            <param id="0" name="Visibility">1</param>
-                        </action>
-                        <action id="-15" name="Set visible" sid="176470335756487" type="caixote6">
-                            <param id="0" name="Visibility">1</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="633830896764139">
-                    <conditions>
-                        <condition id="3" name="On touched object" sid="917864399203493" type="Touch">
-                            <param id="0" name="Object">caixote6</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-9" name="Destroy" sid="314181209785443" type="parede8" />
-                        <action id="0" name="Play" sid="773069280709221" type="Audio">
-                            <param id="0" name="Audio file">mario_coin_sound_1</param>
-                            <param id="2" name="Loop">0</param>
-                            <param id="3" name="Volume">0</param>
-                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
-                        </action>
-                        <action id="-9" name="Destroy" sid="204838881988707" type="balaoPixel2" />
-                        <action id="-9" name="Destroy" sid="953714453648912" type="textoInformacao2" />
-                        <action id="-15" name="Set visible" sid="599340159280815" type="caixote5">
-                            <param id="0" name="Visibility">0</param>
-                        </action>
-                        <action id="-15" name="Set visible" sid="631115116322113" type="caixote6">
-                            <param id="0" name="Visibility">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
-        </event-group>
         <event-group description="" sid="573614362366636" title="Personagem x Banana">
             <sub-events>
                 <comment>Personagem x Banana</comment>
@@ -886,5 +767,376 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <event-group description="" sid="175042422077643" title="Movimento Dinossauro">
+            <sub-events>
+                <event-block sid="649860353439558">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="284663828184721" type="dinossauro">
+                            <param id="0" name="Instance variable">direcaoDinossauro</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Platform" id="7" name="Simulate control" sid="666225481494208" type="dinossauro">
+                            <param id="0" name="Control">0</param>
+                        </action>
+                        <action id="7" name="Set mirrored" sid="359877896088702" type="dinossauro">
+                            <param id="0" name="State">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="968137218385299">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="913960465023354" type="dinossauro">
+                            <param id="0" name="Instance variable">direcaoDinossauro</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Platform" id="7" name="Simulate control" sid="976650503536088" type="dinossauro">
+                            <param id="0" name="Control">1</param>
+                        </action>
+                        <action id="7" name="Set mirrored" sid="489936960974275" type="dinossauro">
+                            <param id="0" name="State">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="235896598651983">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="142062965055463" type="dinossauro">
+                            <param id="0" name="Object">direcional2</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="178740599639317" type="dinossauro">
+                            <param id="0" name="Instance variable">direcaoDinossauro</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="477900291620829" type="dinossauro">
+                            <param id="0" name="Instance variable">direcaoDinossauro</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="444830997590442">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="102216005424839" type="dinossauro">
+                            <param id="0" name="Object">direcional</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="927948009516060" type="dinossauro">
+                            <param id="0" name="Instance variable">direcaoDinossauro</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="881340639153364" type="dinossauro">
+                            <param id="0" name="Instance variable">direcaoDinossauro</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="377252936143335" title="GuiaDeInstrucao">
+            <sub-events>
+                <comment>botaoCima</comment>
+                <event-block sid="745453161721195">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="961486860873034" type="personagem">
+                            <param id="0" name="Object">pisoDuro32</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Wait" sid="269361575271884" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="254867691043977" type="balaoPixel">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="468970359533329" type="informacaoGuia">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="262757255614851" type="informacaoGuia">
+                            <param id="0" name="Text">&quot;Pressione a tecla para CIMA ^ para seguir caminho&quot;</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="727660788820543" type="setaCima">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="846405882597428">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="769446843411047" type="Touch">
+                            <param id="0" name="Object">opcaoSeta2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="255734520181237" type="pisoDuro32" />
+                        <action id="-9" name="Destroy" sid="523023041700466" type="setaCima" />
+                        <action id="-15" name="Set visible" sid="942371775067685" type="informacaoGuia">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="376194334844119" type="balaoPixel">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <comment>botaoEsquerda</comment>
+                <event-block sid="915509819299357">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="544592194949164" type="personagem">
+                            <param id="0" name="Object">pisoDuro31</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Wait" sid="795294719088375" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="206236330795854" type="balaoPixel">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="430363309839222" type="informacaoGuia">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="974006188510819" type="informacaoGuia">
+                            <param id="0" name="Text">&quot;Pressione a tecla para ESQUERDA &lt;- para abrir caminho&quot;</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="279308615552061" type="setaEsquerda">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="453605718493893">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="373761934274825" type="Touch">
+                            <param id="0" name="Object">opcaoSeta3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="257936921195043" type="pisoDuro31" />
+                        <action id="-9" name="Destroy" sid="449586576120327" type="chaoTerra5" />
+                        <action id="-9" name="Destroy" sid="635313955820444" type="setaEsquerda" />
+                        <action id="-15" name="Set visible" sid="543724925137417" type="informacaoGuia">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="765188075515371" type="balaoPixel">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <comment>botaoDireita</comment>
+                <event-block sid="782069413700785">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="375894306081930" type="personagem">
+                            <param id="0" name="Object">pisoDuro1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Wait" sid="470626881533524" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="538440109260450" type="balaoPixel">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="197176191004596" type="informacaoGuia">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="398811064980879" type="informacaoGuia">
+                            <param id="0" name="Text">&quot;Pressione a tecla para DIREITA -&gt; para abrir caminho&quot;</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="769252977598602" type="setaDireita">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="811227556304958">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="964587864477344" type="Touch">
+                            <param id="0" name="Object">opcaoSeta</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="215791132015815" type="pisoDuro1" />
+                        <action id="-9" name="Destroy" sid="176179187777915" type="chaoTerra2" />
+                        <action id="-9" name="Destroy" sid="936697590945411" type="setaDireita" />
+                        <action id="-15" name="Set visible" sid="418840082730769" type="informacaoGuia">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="504713895906488" type="balaoPixel">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="940093910370906" title="Primeira Muralha">
+            <sub-events>
+                <comment>Primeira Muralha</comment>
+                <event-block sid="120362166853950">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="503136131381333" type="personagem">
+                            <param id="0" name="Object">parede</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="894338837947616" type="balaoPixel">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="681948423558196" type="textoInformacao">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="426398516724048" type="textoInformacao">
+                            <param id="0" name="Text">&quot;Quantas flores existem do outro lado do muro?&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="985686490931092" type="System">
+                            <param id="0" name="Seconds">1.0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="768499729013055" type="opcao1">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="417336039065358" type="opcao2">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="326936102864664" type="opcao3">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="644448139420477">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="476679538362162" type="Touch">
+                            <param id="0" name="Object">opcao2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="403177932581146" type="parede" />
+                        <action id="0" name="Set text" sid="853101015765059" type="textoInformacao">
+                            <param id="0" name="Text">&quot;Parabéns!&quot;</param>
+                        </action>
+                        <action id="0" name="Play" sid="159894514310907" type="Audio">
+                            <param id="0" name="Audio file">mario_coin_sound_1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="778905688063790" type="System">
+                            <param id="0" name="Seconds">1.0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="967185650048696" type="balaoPixel">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="860841193076971" type="textoInformacao">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="511318967426685" type="opcao1">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="193864239732903" type="opcao2">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="190357060285458" type="opcao3">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="466010163477454" type="planta" />
+                    </actions>
+                </event-block>
+                <event-block sid="816124925333486">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="666341220539497" type="Touch">
+                            <param id="0" name="Object">errado</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="857718637040815" type="textoInformacao">
+                            <param id="0" name="Text">&quot;&quot;</param>
+                        </action>
+                        <action id="0" name="Set text" sid="182181789666976" type="textoInformacao">
+                            <param id="0" name="Text">&quot;Resposta Errada. Tente Novamente!&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="210796554115906" title="Segunda Muralha">
+            <sub-events>
+                <comment>Primeira Muralha</comment>
+                <event-block sid="916034101255314">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="359619807596785" type="personagem">
+                            <param id="0" name="Object">parede8</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="756835038039769" type="balaoPixel2">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="427091016284110" type="textoInformacao2">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="487656967974590" type="textoInformacao2">
+                            <param id="0" name="Text">&quot;Quantas bananas tem?&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="255560060662995" type="System">
+                            <param id="0" name="Seconds">1.0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="608536935615229" type="caixote5">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="176470335756487" type="caixote6">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="633830896764139">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="917864399203493" type="Touch">
+                            <param id="0" name="Object">caixote6</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="314181209785443" type="parede8" />
+                        <action id="0" name="Set text" sid="341312458945550" type="textoInformacao2">
+                            <param id="0" name="Text">&quot;Parabéns!&quot;</param>
+                        </action>
+                        <action id="0" name="Play" sid="773069280709221" type="Audio">
+                            <param id="0" name="Audio file">mario_coin_sound_1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="319392072948535" type="System">
+                            <param id="0" name="Seconds">1.0</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="204838881988707" type="balaoPixel2" />
+                        <action id="-9" name="Destroy" sid="953714453648912" type="textoInformacao2" />
+                        <action id="-15" name="Set visible" sid="599340159280815" type="caixote5">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="631115116322113" type="caixote6">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-block sid="247253565819295">
+            <conditions>
+                <condition id="3" name="On touched object" sid="827005273917475" type="Touch">
+                    <param id="0" name="Object">errado</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="557516167680470" type="textoInformacao2">
+                    <param id="0" name="Text">&quot;&quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="654758924672771" type="textoInformacao2">
+                    <param id="0" name="Text">&quot;Resposta Errada. Tente Novamente&quot;</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
