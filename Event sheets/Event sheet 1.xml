@@ -501,166 +501,6 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="" sid="573614362366636" title="Personagem x Banana">
-            <sub-events>
-                <comment>Personagem x Banana</comment>
-                <event-block sid="876747179551998">
-                    <conditions>
-                        <condition id="0" name="On collision with another object" sid="514992860905444" type="personagem">
-                            <param id="0" name="Object">banana</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-9" name="Destroy" sid="775830078723293" type="banana" />
-                        <action id="0" name="Play" sid="859012564843560" type="Audio">
-                            <param id="0" name="Audio file">mario_coin_sound_1</param>
-                            <param id="2" name="Loop">0</param>
-                            <param id="3" name="Volume">0</param>
-                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="421351208483211">
-                    <conditions>
-                        <condition id="0" name="On collision with another object" sid="553148894818261" type="personagem">
-                            <param id="0" name="Object">banana2</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-9" name="Destroy" sid="104406967645735" type="banana2" />
-                        <action id="0" name="Play" sid="502412451592039" type="Audio">
-                            <param id="0" name="Audio file">mario_coin_sound_1</param>
-                            <param id="2" name="Loop">0</param>
-                            <param id="3" name="Volume">0</param>
-                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="338251939852363">
-                    <conditions>
-                        <condition id="0" name="On collision with another object" sid="756859450192052" type="personagem">
-                            <param id="0" name="Object">banana3</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-9" name="Destroy" sid="107197663020608" type="banana3" />
-                        <action id="0" name="Play" sid="983766280486845" type="Audio">
-                            <param id="0" name="Audio file">mario_coin_sound_1</param>
-                            <param id="2" name="Loop">0</param>
-                            <param id="3" name="Volume">0</param>
-                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="302467903811774">
-                    <conditions>
-                        <condition id="0" name="On collision with another object" sid="713766966803594" type="personagem">
-                            <param id="0" name="Object">banana4</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-9" name="Destroy" sid="259074376120009" type="banana4" />
-                        <action id="0" name="Play" sid="202563292915152" type="Audio">
-                            <param id="0" name="Audio file">mario_coin_sound_1</param>
-                            <param id="2" name="Loop">0</param>
-                            <param id="3" name="Volume">0</param>
-                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="910370498292717">
-                    <conditions>
-                        <condition id="0" name="On collision with another object" sid="161611857460993" type="personagem">
-                            <param id="0" name="Object">banana5</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-9" name="Destroy" sid="848328209438433" type="banana5" />
-                        <action id="0" name="Play" sid="548205752214626" type="Audio">
-                            <param id="0" name="Audio file">mario_coin_sound_1</param>
-                            <param id="2" name="Loop">0</param>
-                            <param id="3" name="Volume">0</param>
-                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="312038977425075">
-                    <conditions>
-                        <condition id="0" name="On collision with another object" sid="831227915240083" type="personagem">
-                            <param id="0" name="Object">banana7</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-9" name="Destroy" sid="219919187410400" type="banana7" />
-                        <action id="0" name="Play" sid="495112705292644" type="Audio">
-                            <param id="0" name="Audio file">mario_coin_sound_1</param>
-                            <param id="2" name="Loop">0</param>
-                            <param id="3" name="Volume">0</param>
-                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="738412258466824">
-                    <conditions>
-                        <condition id="0" name="On collision with another object" sid="797838683935824" type="personagem">
-                            <param id="0" name="Object">moedas</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-9" name="Destroy" sid="955996208618487" type="moedas" />
-                        <action id="0" name="Play" sid="804428124241940" type="Audio">
-                            <param id="0" name="Audio file">mario_coin_sound_1</param>
-                            <param id="2" name="Loop">0</param>
-                            <param id="3" name="Volume">0</param>
-                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="665508012173104">
-                    <conditions>
-                        <condition id="0" name="On collision with another object" sid="751086905446513" type="personagem">
-                            <param id="0" name="Object">moedas2</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-9" name="Destroy" sid="571320787265327" type="moedas2" />
-                        <action id="0" name="Play" sid="580157990529154" type="Audio">
-                            <param id="0" name="Audio file">mario_coin_sound_1</param>
-                            <param id="2" name="Loop">0</param>
-                            <param id="3" name="Volume">0</param>
-                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="534157772733444">
-                    <conditions>
-                        <condition id="0" name="On collision with another object" sid="444527224825011" type="personagem">
-                            <param id="0" name="Object">canoVermelho2</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="0" name="Play" sid="735182956021324" type="Audio">
-                            <param id="0" name="Audio file">mario_coin_sound_1</param>
-                            <param id="2" name="Loop">0</param>
-                            <param id="3" name="Volume">0</param>
-                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="341611707758854">
-                    <conditions>
-                        <condition id="0" name="On collision with another object" sid="519956408394307" type="personagem">
-                            <param id="0" name="Object">areaporta</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-43" name="Go to next/previous layout" sid="834867999721482" type="System">
-                            <param id="0" name="Which">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
-        </event-group>
         <event-group description="" sid="265264887869837" title="Movimento Morcego">
             <sub-events>
                 <event-block sid="243105335590387">
@@ -973,168 +813,665 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="" sid="940093910370906" title="Primeira Muralha">
+        <event-group description="" sid="732857952296503" title="Fase 1">
             <sub-events>
-                <comment>Primeira Muralha</comment>
-                <event-block sid="120362166853950">
+                <event-group description="" sid="573614362366636" title="Personagem x Banana">
+                    <sub-events>
+                        <comment>Personagem x Banana</comment>
+                        <event-block sid="876747179551998">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="514992860905444" type="personagem">
+                                    <param id="0" name="Object">banana</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Play" sid="859012564843560" type="Audio">
+                                    <param id="0" name="Audio file">mario_coin_sound_1</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                </action>
+                                <action id="-9" name="Destroy" sid="775830078723293" type="banana" />
+                            </actions>
+                        </event-block>
+                        <event-block sid="421351208483211">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="553148894818261" type="personagem">
+                                    <param id="0" name="Object">banana2</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Play" sid="502412451592039" type="Audio">
+                                    <param id="0" name="Audio file">mario_coin_sound_1</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                </action>
+                                <action id="-9" name="Destroy" sid="104406967645735" type="banana2" />
+                            </actions>
+                        </event-block>
+                        <event-block sid="338251939852363">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="756859450192052" type="personagem">
+                                    <param id="0" name="Object">banana3</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Play" sid="983766280486845" type="Audio">
+                                    <param id="0" name="Audio file">mario_coin_sound_1</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                </action>
+                                <action id="-9" name="Destroy" sid="107197663020608" type="banana3" />
+                            </actions>
+                        </event-block>
+                        <event-block sid="302467903811774">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="713766966803594" type="personagem">
+                                    <param id="0" name="Object">banana4</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Play" sid="202563292915152" type="Audio">
+                                    <param id="0" name="Audio file">mario_coin_sound_1</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                </action>
+                                <action id="-9" name="Destroy" sid="259074376120009" type="banana4" />
+                            </actions>
+                        </event-block>
+                        <event-block sid="910370498292717">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="161611857460993" type="personagem">
+                                    <param id="0" name="Object">banana5</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Play" sid="548205752214626" type="Audio">
+                                    <param id="0" name="Audio file">mario_coin_sound_1</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                </action>
+                                <action id="-9" name="Destroy" sid="848328209438433" type="banana5" />
+                            </actions>
+                        </event-block>
+                        <event-block sid="312038977425075">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="831227915240083" type="personagem">
+                                    <param id="0" name="Object">banana7</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Play" sid="495112705292644" type="Audio">
+                                    <param id="0" name="Audio file">mario_coin_sound_1</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                </action>
+                                <action id="-9" name="Destroy" sid="219919187410400" type="banana7" />
+                            </actions>
+                        </event-block>
+                        <event-block sid="738412258466824">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="797838683935824" type="personagem">
+                                    <param id="0" name="Object">moedas</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Play" sid="804428124241940" type="Audio">
+                                    <param id="0" name="Audio file">mario_coin_sound_1</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                </action>
+                                <action id="-9" name="Destroy" sid="955996208618487" type="moedas" />
+                            </actions>
+                        </event-block>
+                        <event-block sid="665508012173104">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="751086905446513" type="personagem">
+                                    <param id="0" name="Object">moedas2</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Play" sid="580157990529154" type="Audio">
+                                    <param id="0" name="Audio file">mario_coin_sound_1</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                </action>
+                                <action id="-9" name="Destroy" sid="571320787265327" type="moedas2" />
+                            </actions>
+                        </event-block>
+                        <event-block sid="534157772733444">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="444527224825011" type="personagem">
+                                    <param id="0" name="Object">canoVermelho2</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Play" sid="735182956021324" type="Audio">
+                                    <param id="0" name="Audio file">mario_coin_sound_1</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="341611707758854">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="519956408394307" type="personagem">
+                                    <param id="0" name="Object">areaporta</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-43" name="Go to next/previous layout" sid="834867999721482" type="System">
+                                    <param id="0" name="Which">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" sid="940093910370906" title="Primeira Muralha">
+                    <sub-events>
+                        <comment>Primeira Muralha</comment>
+                        <event-block sid="120362166853950">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="503136131381333" type="personagem">
+                                    <param id="0" name="Object">parede</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="894338837947616" type="balaoPixel">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="650572884966314" type="textoInformacao4">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="0" name="Set text" sid="554621114325918" type="textoInformacao4">
+                                    <param id="0" name="Text">&quot;Quantas plantas tem do outro lado do muro?&quot;</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="985686490931092" type="System">
+                                    <param id="0" name="Seconds">1.0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="768499729013055" type="opcao1">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="417336039065358" type="opcao2">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="326936102864664" type="opcao3">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="247253565819295">
+                            <conditions>
+                                <condition id="3" name="On touched object" sid="827005273917475" type="Touch">
+                                    <param id="0" name="Object">errado5</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="773673799437829" type="textoInformacao4">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="0" name="Set text" sid="557516167680470" type="textoInformacao4">
+                                    <param id="0" name="Text">&quot;&quot;</param>
+                                </action>
+                                <action id="0" name="Set text" sid="654758924672771" type="textoInformacao4">
+                                    <param id="0" name="Text">&quot;Resposta Errada. Tente Novamente&quot;</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="113796727134347" type="System">
+                                    <param id="0" name="Seconds">1.0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="405449645112580" type="textoInformacao4">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="644448139420477">
+                            <conditions>
+                                <condition id="3" name="On touched object" sid="476679538362162" type="Touch">
+                                    <param id="0" name="Object">opcao2</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="511318967426685" type="opcao1">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="190357060285458" type="opcao3">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="965607400663722" type="textoInformacao4">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="0" name="Set text" sid="827280379883337" type="textoInformacao4">
+                                    <param id="0" name="Text">&quot;&quot;</param>
+                                </action>
+                                <action id="0" name="Set text" sid="553280939742024" type="textoInformacao4">
+                                    <param id="0" name="Text">&quot;Parabéns&quot;</param>
+                                </action>
+                                <action id="0" name="Play" sid="159894514310907" type="Audio">
+                                    <param id="0" name="Audio file">mario_coin_sound_1</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="122522701831800" type="System">
+                                    <param id="0" name="Seconds">1.0</param>
+                                </action>
+                                <action id="-9" name="Destroy" sid="403177932581146" type="parede" />
+                                <action id="-16" name="Wait" sid="778905688063790" type="System">
+                                    <param id="0" name="Seconds">1.0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="967185650048696" type="balaoPixel">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="205667971371295" type="textoInformacao4">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="193864239732903" type="opcao2">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-9" name="Destroy" sid="466010163477454" type="planta" />
+                            </actions>
+                        </event-block>
+                        <event-block sid="816124925333486">
+                            <conditions>
+                                <condition id="3" name="On touched object" sid="666341220539497" type="Touch">
+                                    <param id="0" name="Object">errado4</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="703454524226726" type="textoInformacao4">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="0" name="Set text" sid="785882565073960" type="textoInformacao4">
+                                    <param id="0" name="Text">&quot;&quot;</param>
+                                </action>
+                                <action id="0" name="Set text" sid="816716857468194" type="textoInformacao4">
+                                    <param id="0" name="Text">&quot;Resposta Errada. Tente Novamente&quot;</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="105031362247858" type="System">
+                                    <param id="0" name="Seconds">1.0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="824906690181977" type="textoInformacao4">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" sid="210796554115906" title="Segunda Muralha">
+                    <sub-events>
+                        <event-block sid="796583804739510">
+                            <conditions>
+                                <condition id="3" name="On touched object" sid="856573522154199" type="Touch">
+                                    <param id="0" name="Object">errado3</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="174948138229467" type="textoInformacao2">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="0" name="Set text" sid="696610766507559" type="textoInformacao2">
+                                    <param id="0" name="Text">&quot;&quot;</param>
+                                </action>
+                                <action id="0" name="Set text" sid="841105955869609" type="textoInformacao2">
+                                    <param id="0" name="Text">&quot;Resposta Errada. Tente Novamente&quot;</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="533357190950482" type="System">
+                                    <param id="0" name="Seconds">1.0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="615114888501456" type="textoInformacao2">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="916034101255314">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="359619807596785" type="personagem">
+                                    <param id="0" name="Object">parede8</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="756835038039769" type="balaoPixel2">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="427091016284110" type="textoInformacao2">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="0" name="Set text" sid="487656967974590" type="textoInformacao2">
+                                    <param id="0" name="Text">&quot;Quantas bananas tem?&quot;</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="255560060662995" type="System">
+                                    <param id="0" name="Seconds">1.0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="608536935615229" type="caixote5">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="176470335756487" type="caixote6">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="633830896764139">
+                            <conditions>
+                                <condition id="3" name="On touched object" sid="917864399203493" type="Touch">
+                                    <param id="0" name="Object">caixote6</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="599340159280815" type="caixote5">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="620712384216386" type="textoInformacao2">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="0" name="Set text" sid="341312458945550" type="textoInformacao2">
+                                    <param id="0" name="Text">&quot;Parabéns!&quot;</param>
+                                </action>
+                                <action id="0" name="Play" sid="773069280709221" type="Audio">
+                                    <param id="0" name="Audio file">mario_coin_sound_1</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="319392072948535" type="System">
+                                    <param id="0" name="Seconds">1.0</param>
+                                </action>
+                                <action id="-9" name="Destroy" sid="204838881988707" type="balaoPixel2" />
+                                <action id="-9" name="Destroy" sid="953714453648912" type="textoInformacao2" />
+                                <action id="-9" name="Destroy" sid="314181209785443" type="parede8" />
+                                <action id="-15" name="Set visible" sid="631115116322113" type="caixote6">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="753053049802507" title="Fase 2">
+            <sub-events>
+                <event-group description="" sid="872536041685047" title="MovimentoMacã">
+                    <sub-events>
+                        <event-block sid="974578130045878">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="497044599098407" type="personagem">
+                                    <param id="0" name="Object">inicioMaca</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="872455898195294" type="canoVermelhoFase2">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="323101632514010" type="maca">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-3" name="Create object" sid="181493818507551" type="System">
+                                    <param id="0" name="Object to create">maca</param>
+                                    <param id="1" name="Layer">&quot;entities2&quot;</param>
+                                    <param id="2" name="X">1441</param>
+                                    <param id="3" name="Y">12</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="414841273718729">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="479265678696678" type="maca">
+                                    <param id="0" name="Instance variable">direcaoMaca</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Platform" id="7" name="Simulate control" sid="206577480589886" type="maca">
+                                    <param id="0" name="Control">1</param>
+                                </action>
+                                <action id="7" name="Set mirrored" sid="256604360682206" type="maca">
+                                    <param id="0" name="State">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="425607692663505">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="627721385139183" type="maca">
+                                    <param id="0" name="Instance variable">direcaoMaca</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Platform" id="7" name="Simulate control" sid="649937178712786" type="maca">
+                                    <param id="0" name="Control">0</param>
+                                </action>
+                                <action id="7" name="Set mirrored" sid="269482168037856" type="maca">
+                                    <param id="0" name="State">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="285622864287258">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="761520757011571" type="maca">
+                                    <param id="0" name="Object">pisoDuro2</param>
+                                </condition>
+                                <condition id="-7" name="Compare instance variable" sid="159137430809389" type="maca">
+                                    <param id="0" name="Instance variable">direcaoMaca</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Set value" sid="436335594921364" type="maca">
+                                    <param id="0" name="Instance variable">direcaoMaca</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="-3" name="Create object" sid="522971814255760" type="System">
+                                    <param id="0" name="Object to create">maca</param>
+                                    <param id="1" name="Layer">&quot;entities2&quot;</param>
+                                    <param id="2" name="X">1441</param>
+                                    <param id="3" name="Y">12</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="248596231143571">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="730525261892690" type="maca">
+                                    <param id="0" name="Object">paredeLateral</param>
+                                </condition>
+                                <condition id="-7" name="Compare instance variable" sid="903122356331127" type="maca">
+                                    <param id="0" name="Instance variable">direcaoMaca</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Set value" sid="571826918378222" type="maca">
+                                    <param id="0" name="Instance variable">direcaoMaca</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                                <action id="-9" name="Destroy" sid="373201997154222" type="maca" />
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-block sid="887170271708428">
                     <conditions>
-                        <condition id="0" name="On collision with another object" sid="503136131381333" type="personagem">
-                            <param id="0" name="Object">parede</param>
+                        <condition id="0" name="On collision with another object" sid="335579413832385" type="personagem">
+                            <param id="0" name="Object">florVermelha</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-15" name="Set visible" sid="894338837947616" type="balaoPixel">
-                            <param id="0" name="Visibility">1</param>
-                        </action>
-                        <action id="-15" name="Set visible" sid="681948423558196" type="textoInformacao">
-                            <param id="0" name="Visibility">1</param>
-                        </action>
-                        <action id="0" name="Set text" sid="426398516724048" type="textoInformacao">
-                            <param id="0" name="Text">&quot;Quantas flores existem do outro lado do muro?&quot;</param>
-                        </action>
-                        <action id="-16" name="Wait" sid="985686490931092" type="System">
-                            <param id="0" name="Seconds">1.0</param>
-                        </action>
-                        <action id="-15" name="Set visible" sid="768499729013055" type="opcao1">
-                            <param id="0" name="Visibility">1</param>
-                        </action>
-                        <action id="-15" name="Set visible" sid="417336039065358" type="opcao2">
-                            <param id="0" name="Visibility">1</param>
-                        </action>
-                        <action id="-15" name="Set visible" sid="326936102864664" type="opcao3">
-                            <param id="0" name="Visibility">1</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="644448139420477">
-                    <conditions>
-                        <condition id="3" name="On touched object" sid="476679538362162" type="Touch">
-                            <param id="0" name="Object">opcao2</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-9" name="Destroy" sid="403177932581146" type="parede" />
-                        <action id="0" name="Set text" sid="853101015765059" type="textoInformacao">
-                            <param id="0" name="Text">&quot;Parabéns!&quot;</param>
-                        </action>
-                        <action id="0" name="Play" sid="159894514310907" type="Audio">
+                        <action id="0" name="Play" sid="250844084688520" type="Audio">
                             <param id="0" name="Audio file">mario_coin_sound_1</param>
                             <param id="2" name="Loop">0</param>
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
-                        <action id="-16" name="Wait" sid="778905688063790" type="System">
-                            <param id="0" name="Seconds">1.0</param>
-                        </action>
-                        <action id="-15" name="Set visible" sid="967185650048696" type="balaoPixel">
-                            <param id="0" name="Visibility">0</param>
-                        </action>
-                        <action id="-15" name="Set visible" sid="860841193076971" type="textoInformacao">
-                            <param id="0" name="Visibility">0</param>
-                        </action>
-                        <action id="-15" name="Set visible" sid="511318967426685" type="opcao1">
-                            <param id="0" name="Visibility">0</param>
-                        </action>
-                        <action id="-15" name="Set visible" sid="193864239732903" type="opcao2">
-                            <param id="0" name="Visibility">0</param>
-                        </action>
-                        <action id="-15" name="Set visible" sid="190357060285458" type="opcao3">
-                            <param id="0" name="Visibility">0</param>
-                        </action>
-                        <action id="-9" name="Destroy" sid="466010163477454" type="planta" />
+                        <action id="-9" name="Destroy" sid="638244230407055" type="florVermelha" />
                     </actions>
                 </event-block>
-                <event-block sid="816124925333486">
+                <event-block sid="978547901153345">
                     <conditions>
-                        <condition id="3" name="On touched object" sid="666341220539497" type="Touch">
-                            <param id="0" name="Object">errado</param>
+                        <condition id="0" name="On collision with another object" sid="944152577743948" type="personagem">
+                            <param id="0" name="Object">florVermelha2</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="0" name="Set text" sid="857718637040815" type="textoInformacao">
+                        <action id="0" name="Play" sid="860722851821974" type="Audio">
+                            <param id="0" name="Audio file">mario_coin_sound_1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="542027907610039" type="florVermelha2" />
+                    </actions>
+                </event-block>
+                <event-block sid="243803204464342">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="204604345432455" type="personagem">
+                            <param id="0" name="Object">florVermelha3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="210965769219556" type="Audio">
+                            <param id="0" name="Audio file">mario_coin_sound_1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="691853686501152" type="florVermelha3" />
+                    </actions>
+                </event-block>
+                <event-block sid="927729264992504">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="267000985156197" type="personagem">
+                            <param id="0" name="Object">pisoDuro34</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="593489989433400" type="canoVerde">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="617651130977315" type="balaoPixel3">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="509953887739981" type="textoInformacao3">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="776366071960928" type="textoInformacao3">
+                            <param id="0" name="Text">&quot;Quantas flores tem do outro lado do cano?&quot;</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="996480092331334" type="florVermelha">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="934362596874679" type="florVermelha2">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="319875830251752" type="florVermelha3">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="464112727489121" type="opcaoUm">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="743249014609687" type="textoUm">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="622308756131928" type="opcaoUm2">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="436604678849256" type="textoUm2">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="866182701421317" type="opcaoUm3">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="704100462026395" type="textoUm3">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="571593772378026">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="759869972529455" type="Touch">
+                            <param id="0" name="Object">errado3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="938002237024244" type="textoInformacao3">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="456912027077949" type="textoInformacao3">
                             <param id="0" name="Text">&quot;&quot;</param>
                         </action>
-                        <action id="0" name="Set text" sid="182181789666976" type="textoInformacao">
+                        <action id="0" name="Set text" sid="167922878278839" type="textoInformacao3">
                             <param id="0" name="Text">&quot;Resposta Errada. Tente Novamente!&quot;</param>
                         </action>
-                    </actions>
-                </event-block>
-            </sub-events>
-        </event-group>
-        <event-group description="" sid="210796554115906" title="Segunda Muralha">
-            <sub-events>
-                <comment>Primeira Muralha</comment>
-                <event-block sid="916034101255314">
-                    <conditions>
-                        <condition id="0" name="On collision with another object" sid="359619807596785" type="personagem">
-                            <param id="0" name="Object">parede8</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-15" name="Set visible" sid="756835038039769" type="balaoPixel2">
-                            <param id="0" name="Visibility">1</param>
-                        </action>
-                        <action id="-15" name="Set visible" sid="427091016284110" type="textoInformacao2">
-                            <param id="0" name="Visibility">1</param>
-                        </action>
-                        <action id="0" name="Set text" sid="487656967974590" type="textoInformacao2">
-                            <param id="0" name="Text">&quot;Quantas bananas tem?&quot;</param>
-                        </action>
-                        <action id="-16" name="Wait" sid="255560060662995" type="System">
+                        <action id="-16" name="Wait" sid="240737698400794" type="System">
                             <param id="0" name="Seconds">1.0</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="608536935615229" type="caixote5">
-                            <param id="0" name="Visibility">1</param>
-                        </action>
-                        <action id="-15" name="Set visible" sid="176470335756487" type="caixote6">
-                            <param id="0" name="Visibility">1</param>
+                        <action id="-15" name="Set visible" sid="105539812154183" type="textoInformacao3">
+                            <param id="0" name="Visibility">0</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="633830896764139">
+                <event-block sid="780033330147898">
                     <conditions>
-                        <condition id="3" name="On touched object" sid="917864399203493" type="Touch">
-                            <param id="0" name="Object">caixote6</param>
+                        <condition id="3" name="On touched object" sid="465440692962916" type="Touch">
+                            <param id="0" name="Object">certo</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-9" name="Destroy" sid="314181209785443" type="parede8" />
-                        <action id="0" name="Set text" sid="341312458945550" type="textoInformacao2">
-                            <param id="0" name="Text">&quot;Parabéns!&quot;</param>
-                        </action>
-                        <action id="0" name="Play" sid="773069280709221" type="Audio">
+                        <action id="0" name="Play" sid="921962047030909" type="Audio">
                             <param id="0" name="Audio file">mario_coin_sound_1</param>
                             <param id="2" name="Loop">0</param>
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
-                        <action id="-16" name="Wait" sid="319392072948535" type="System">
+                        <action id="-9" name="Destroy" sid="751966743141140" type="opcaoUm" />
+                        <action id="-9" name="Destroy" sid="519067907461523" type="textoUm" />
+                        <action id="-9" name="Destroy" sid="248035484229938" type="opcaoUm3" />
+                        <action id="-9" name="Destroy" sid="486305051200828" type="textoUm3" />
+                        <action id="-15" name="Set visible" sid="538975594284528" type="textoInformacao3">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="903487895168457" type="textoInformacao3">
+                            <param id="0" name="Text">&quot;&quot;</param>
+                        </action>
+                        <action id="0" name="Set text" sid="384646178997559" type="textoInformacao3">
+                            <param id="0" name="Text">&quot;Parabéns!&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="985326546842590" type="System">
                             <param id="0" name="Seconds">1.0</param>
                         </action>
-                        <action id="-9" name="Destroy" sid="204838881988707" type="balaoPixel2" />
-                        <action id="-9" name="Destroy" sid="953714453648912" type="textoInformacao2" />
-                        <action id="-15" name="Set visible" sid="599340159280815" type="caixote5">
-                            <param id="0" name="Visibility">0</param>
-                        </action>
-                        <action id="-15" name="Set visible" sid="631115116322113" type="caixote6">
-                            <param id="0" name="Visibility">0</param>
-                        </action>
+                        <action id="-9" name="Destroy" sid="147284511308069" type="balaoPixel3" />
+                        <action id="-9" name="Destroy" sid="273714513443563" type="textoInformacao3" />
+                        <action id="-9" name="Destroy" sid="986670259326395" type="canoVerde" />
+                        <action id="-9" name="Destroy" sid="194775176403412" type="opcaoUm2" />
+                        <action id="-9" name="Destroy" sid="363467447430412" type="textoUm2" />
+                        <action id="-9" name="Destroy" sid="696326366982584" type="pisoDuro34" />
                     </actions>
                 </event-block>
             </sub-events>
         </event-group>
-        <event-block sid="247253565819295">
+        <event-block sid="308101088743248">
             <conditions>
-                <condition id="3" name="On touched object" sid="827005273917475" type="Touch">
-                    <param id="0" name="Object">errado</param>
+                <condition id="0" name="On collision with another object" sid="600889995382197" type="personagem">
+                    <param id="0" name="Object">maca</param>
+                </condition>
+                <condition id="-2" name="Compare Y" sid="122364053359435" type="personagem">
+                    <param id="0" name="Comparison">2</param>
+                    <param id="1" name="Y co-ordinate">maca.Y-35</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="0" name="Set text" sid="557516167680470" type="textoInformacao2">
-                    <param id="0" name="Text">&quot;&quot;</param>
-                </action>
-                <action id="0" name="Set text" sid="654758924672771" type="textoInformacao2">
-                    <param id="0" name="Text">&quot;Resposta Errada. Tente Novamente&quot;</param>
+                <action id="-9" name="Destroy" sid="717092809336911" type="maca" />
+                <action behavior="Platform" id="9" name="Set vector Y" sid="129815189844215" type="personagem">
+                    <param id="0" name="Vector Y">-800</param>
                 </action>
             </actions>
         </event-block>

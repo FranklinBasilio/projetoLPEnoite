@@ -146,6 +146,19 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/opcaoSeta/" />
         <folder expanded="1" path="animation-folder/opcaoSeta2/" />
         <folder expanded="1" path="animation-folder/opcaoSeta3/" />
-        <folder expanded="1" path="animation-folder/errado/" />
+        <folder expanded="1" path="animation-folder/errado3/" />
+        <folder expanded="1" path="animation-folder/canoVerde/" />
+        <folder expanded="1" path="animation-folder/opcaoUm/" />
+        <folder expanded="1" path="animation-folder/opcaoUm2/" />
+        <folder expanded="1" path="animation-folder/opcaoUm3/" />
+        <folder expanded="1" path="animation-folder/certo/" />
+        <folder expanded="1" path="animation-folder/balaoPixel3/" />
+        <folder expanded="1" path="animation-folder/errado4/" />
+        <folder expanded="1" path="animation-folder/opcao4/" />
+        <folder expanded="1" path="animation-folder/errado5/" />
+        <folder expanded="1" path="animation-folder/maca/" />
+        <folder expanded="1" path="animation-folder/canoVermelhoFase2/" />
+        <folder expanded="1" path="animation-folder/inicioMaca/" />
+        <folder expanded="1" path="animation-folder/paredeLateral/" />
     </folders-expanded>
 </c2uistate>
