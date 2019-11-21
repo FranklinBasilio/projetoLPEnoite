@@ -1296,17 +1296,11 @@
         <object-type name="moedas" sid="567205445938789">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="10" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="619182798411421" speed="7">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.518519" original-source="C:\Users\Franklin\Downloads\ASU_19\0.png" />
-                    <frame duration="1" hotspotX="0.533333" hotspotY="0.518519" original-source="C:\Users\Franklin\Downloads\ASU_19\1.png" />
-                    <frame duration="1" hotspotX="0.533333" hotspotY="0.518519" original-source="C:\Users\Franklin\Downloads\ASU_19\2.png" />
-                    <frame duration="1" hotspotX="0.521739" hotspotY="0.518519" original-source="C:\Users\Franklin\Downloads\ASU_19\3.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.518519" original-source="C:\Users\Franklin\Downloads\ASU_19\4.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.518519" original-source="C:\Users\Franklin\Downloads\ASU_19\5.png" />
-                    <frame duration="1" hotspotX="0.517241" hotspotY="0.518519" />
-                    <frame duration="1" hotspotX="0.521739" hotspotY="0.518519" original-source="C:\Users\Franklin\Downloads\ASU_19\6.png" />
-                    <frame duration="1" hotspotX="0.518519" hotspotY="0.518519" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.518519" />
+                <animation framecount="4" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="619182798411421" speed="10">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Franklin\Downloads\como coletar moedas\como coletar moedas\moeda\animação_01.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Franklin\Downloads\como coletar moedas\como coletar moedas\moeda\animação_02.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Franklin\Downloads\como coletar moedas\como coletar moedas\moeda\animação_03.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Franklin\Downloads\como coletar moedas\como coletar moedas\moeda\animação_04.png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -3199,6 +3193,39 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="moedasTotal" sid="263221210944760">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="4" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="128204535860843" speed="8">
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\Franklin\Downloads\como coletar moedas\como coletar moedas\moeda\animação_01.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\Franklin\Downloads\como coletar moedas\como coletar moedas\moeda\animação_02.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\Franklin\Downloads\como coletar moedas\como coletar moedas\moeda\animação_03.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\Franklin\Downloads\como coletar moedas\como coletar moedas\moeda\animação_04.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="QtdeMoedas" sid="122265283957212">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="igualMoedas" sid="370096621051885">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="qtdeMaca" sid="655733316061594">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="3" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="783004697051354" speed="8">
+                    <frame duration="1" hotspotX="0.512195" hotspotY="1" original-source="C:\Users\Franklin\Downloads\ASU_19\0.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" original-source="C:\Users\Franklin\Downloads\ASU_19\1.png" />
+                    <frame duration="1" hotspotX="0.512195" hotspotY="1" original-source="C:\Users\Franklin\Downloads\ASU_19\2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="igualMaca" sid="354463394934165">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="totalMaca" sid="549909283841902">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -3243,6 +3270,7 @@
         <file name="479270__unfa__fuckup-theme.ogg" />
         <file name="mario_coin_sound_1.m4a" />
         <file name="mario_coin_sound_1.ogg" />
+        <file name="smb_stomp.ogg" />
     </music-folder>
     <files-folder>
         <file-folder name="Icons">

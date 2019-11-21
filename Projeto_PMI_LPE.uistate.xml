@@ -160,5 +160,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/canoVermelhoFase2/" />
         <folder expanded="1" path="animation-folder/inicioMaca/" />
         <folder expanded="1" path="animation-folder/paredeLateral/" />
+        <folder expanded="1" path="animation-folder/moedasTotal/" />
+        <folder expanded="1" path="animation-folder/qtdeMaca/" />
     </folders-expanded>
 </c2uistate>

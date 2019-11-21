@@ -3,6 +3,8 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Event sheet 1</name>
     <events>
+        <variable constant="0" name="totalMacas" sid="263575750217245" static="0" type="number">0</variable>
+        <variable constant="0" name="moedas" sid="336039491487368" static="0" type="number">0</variable>
         <variable comment="vidas do jogador" constant="0" name="var_lifes" sid="925206357897410" static="0" type="number">3</variable>
         <event-block sid="156374072747492">
             <conditions>
@@ -928,6 +930,10 @@
                                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
                                 </action>
                                 <action id="-9" name="Destroy" sid="955996208618487" type="moedas" />
+                                <action id="-10" name="Add to" sid="490203220108918" type="System">
+                                    <param id="0" name="Variable">moedas</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
                             </actions>
                         </event-block>
                         <event-block sid="665508012173104">
@@ -944,6 +950,10 @@
                                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
                                 </action>
                                 <action id="-9" name="Destroy" sid="571320787265327" type="moedas2" />
+                                <action id="-10" name="Add to" sid="839017213361724" type="System">
+                                    <param id="0" name="Variable">moedas</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
                             </actions>
                         </event-block>
                         <event-block sid="534157772733444">
@@ -1197,108 +1207,6 @@
         </event-group>
         <event-group description="" sid="753053049802507" title="Fase 2">
             <sub-events>
-                <event-group description="" sid="872536041685047" title="MovimentoMacã">
-                    <sub-events>
-                        <event-block sid="974578130045878">
-                            <conditions>
-                                <condition id="0" name="On collision with another object" sid="497044599098407" type="personagem">
-                                    <param id="0" name="Object">inicioMaca</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="-15" name="Set visible" sid="872455898195294" type="canoVermelhoFase2">
-                                    <param id="0" name="Visibility">1</param>
-                                </action>
-                                <action id="-15" name="Set visible" sid="323101632514010" type="maca">
-                                    <param id="0" name="Visibility">1</param>
-                                </action>
-                                <action id="-3" name="Create object" sid="181493818507551" type="System">
-                                    <param id="0" name="Object to create">maca</param>
-                                    <param id="1" name="Layer">&quot;entities2&quot;</param>
-                                    <param id="2" name="X">1441</param>
-                                    <param id="3" name="Y">12</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                        <event-block sid="414841273718729">
-                            <conditions>
-                                <condition id="-7" name="Compare instance variable" sid="479265678696678" type="maca">
-                                    <param id="0" name="Instance variable">direcaoMaca</param>
-                                    <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Value">0</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action behavior="Platform" id="7" name="Simulate control" sid="206577480589886" type="maca">
-                                    <param id="0" name="Control">1</param>
-                                </action>
-                                <action id="7" name="Set mirrored" sid="256604360682206" type="maca">
-                                    <param id="0" name="State">1</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                        <event-block sid="425607692663505">
-                            <conditions>
-                                <condition id="-7" name="Compare instance variable" sid="627721385139183" type="maca">
-                                    <param id="0" name="Instance variable">direcaoMaca</param>
-                                    <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Value">1</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action behavior="Platform" id="7" name="Simulate control" sid="649937178712786" type="maca">
-                                    <param id="0" name="Control">0</param>
-                                </action>
-                                <action id="7" name="Set mirrored" sid="269482168037856" type="maca">
-                                    <param id="0" name="State">0</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                        <event-block sid="285622864287258">
-                            <conditions>
-                                <condition id="0" name="On collision with another object" sid="761520757011571" type="maca">
-                                    <param id="0" name="Object">pisoDuro2</param>
-                                </condition>
-                                <condition id="-7" name="Compare instance variable" sid="159137430809389" type="maca">
-                                    <param id="0" name="Instance variable">direcaoMaca</param>
-                                    <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Value">0</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="-10" name="Set value" sid="436335594921364" type="maca">
-                                    <param id="0" name="Instance variable">direcaoMaca</param>
-                                    <param id="1" name="Value">1</param>
-                                </action>
-                                <action id="-3" name="Create object" sid="522971814255760" type="System">
-                                    <param id="0" name="Object to create">maca</param>
-                                    <param id="1" name="Layer">&quot;entities2&quot;</param>
-                                    <param id="2" name="X">1441</param>
-                                    <param id="3" name="Y">12</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                        <event-block sid="248596231143571">
-                            <conditions>
-                                <condition id="0" name="On collision with another object" sid="730525261892690" type="maca">
-                                    <param id="0" name="Object">paredeLateral</param>
-                                </condition>
-                                <condition id="-7" name="Compare instance variable" sid="903122356331127" type="maca">
-                                    <param id="0" name="Instance variable">direcaoMaca</param>
-                                    <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Value">1</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="-10" name="Set value" sid="571826918378222" type="maca">
-                                    <param id="0" name="Instance variable">direcaoMaca</param>
-                                    <param id="1" name="Value">0</param>
-                                </action>
-                                <action id="-9" name="Destroy" sid="373201997154222" type="maca" />
-                            </actions>
-                        </event-block>
-                    </sub-events>
-                </event-group>
                 <event-block sid="887170271708428">
                     <conditions>
                         <condition id="0" name="On collision with another object" sid="335579413832385" type="personagem">
@@ -1456,22 +1364,192 @@
                         <action id="-9" name="Destroy" sid="696326366982584" type="pisoDuro34" />
                     </actions>
                 </event-block>
+                <event-block sid="308101088743248">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="600889995382197" type="personagem">
+                            <param id="0" name="Object">maca</param>
+                        </condition>
+                        <condition id="-2" name="Compare Y" sid="122364053359435" type="personagem">
+                            <param id="0" name="Comparison">2</param>
+                            <param id="1" name="Y co-ordinate">maca.Y-35</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Platform" id="9" name="Set vector Y" sid="129815189844215" type="personagem">
+                            <param id="0" name="Vector Y">-800</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="717092809336911" type="maca" />
+                        <action id="0" name="Play" sid="320395451295570" type="Audio">
+                            <param id="0" name="Audio file">smb_stomp</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="848662078191953" type="System">
+                            <param id="0" name="Variable">totalMacas</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-group description="" sid="872536041685047" title="MovimentoMacã">
+                    <sub-events>
+                        <event-block sid="974578130045878">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="497044599098407" type="personagem">
+                                    <param id="0" name="Object">inicioMaca</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="872455898195294" type="canoVermelhoFase2">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="323101632514010" type="maca">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-3" name="Create object" sid="181493818507551" type="System">
+                                    <param id="0" name="Object to create">maca</param>
+                                    <param id="1" name="Layer">&quot;entities2&quot;</param>
+                                    <param id="2" name="X">1441</param>
+                                    <param id="3" name="Y">12</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="451940721139686" type="qtdeMaca">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="245435583169252" type="igualMaca">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="805389298772629" type="totalMaca">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="414841273718729">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="479265678696678" type="maca">
+                                    <param id="0" name="Instance variable">direcaoMaca</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Platform" id="7" name="Simulate control" sid="206577480589886" type="maca">
+                                    <param id="0" name="Control">1</param>
+                                </action>
+                                <action id="7" name="Set mirrored" sid="256604360682206" type="maca">
+                                    <param id="0" name="State">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="425607692663505">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="627721385139183" type="maca">
+                                    <param id="0" name="Instance variable">direcaoMaca</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Platform" id="7" name="Simulate control" sid="649937178712786" type="maca">
+                                    <param id="0" name="Control">0</param>
+                                </action>
+                                <action id="7" name="Set mirrored" sid="269482168037856" type="maca">
+                                    <param id="0" name="State">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="285622864287258">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="761520757011571" type="maca">
+                                    <param id="0" name="Object">pisoDuro2</param>
+                                </condition>
+                                <condition id="-7" name="Compare instance variable" sid="159137430809389" type="maca">
+                                    <param id="0" name="Instance variable">direcaoMaca</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Set value" sid="436335594921364" type="maca">
+                                    <param id="0" name="Instance variable">direcaoMaca</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="-3" name="Create object" sid="522971814255760" type="System">
+                                    <param id="0" name="Object to create">maca</param>
+                                    <param id="1" name="Layer">&quot;entities2&quot;</param>
+                                    <param id="2" name="X">1441</param>
+                                    <param id="3" name="Y">12</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="248596231143571">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="730525261892690" type="maca">
+                                    <param id="0" name="Object">paredeLateral</param>
+                                </condition>
+                                <condition id="-7" name="Compare instance variable" sid="903122356331127" type="maca">
+                                    <param id="0" name="Instance variable">direcaoMaca</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Set value" sid="571826918378222" type="maca">
+                                    <param id="0" name="Instance variable">direcaoMaca</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                                <action id="-9" name="Destroy" sid="373201997154222" type="maca" />
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
             </sub-events>
         </event-group>
-        <event-block sid="308101088743248">
+        <event-block sid="868205620327494">
             <conditions>
-                <condition id="0" name="On collision with another object" sid="600889995382197" type="personagem">
-                    <param id="0" name="Object">maca</param>
-                </condition>
-                <condition id="-2" name="Compare Y" sid="122364053359435" type="personagem">
-                    <param id="0" name="Comparison">2</param>
-                    <param id="1" name="Y co-ordinate">maca.Y-35</param>
+                <condition id="-1" name="Every tick" sid="475276790581883" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="942483613740416" type="QtdeMoedas">
+                    <param id="0" name="Text">moedas</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="282635995446213">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="708250306737742" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="471515350887666" type="totalMaca">
+                    <param id="0" name="Text">totalMacas</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="189347943258320">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="479124851380839" type="System">
+                    <param id="0" name="Variable">totalMacas</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Value">4</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-9" name="Destroy" sid="717092809336911" type="maca" />
-                <action behavior="Platform" id="9" name="Set vector Y" sid="129815189844215" type="personagem">
-                    <param id="0" name="Vector Y">-800</param>
+                <action id="-3" name="Create object" sid="157407235008208" type="System">
+                    <param id="0" name="Object to create">balaoPixel</param>
+                    <param id="1" name="Layer">&quot;gui&quot;</param>
+                    <param id="2" name="X">500</param>
+                    <param id="3" name="Y">100</param>
+                </action>
+                <action id="-3" name="Create object" sid="619930884910489" type="System">
+                    <param id="0" name="Object to create">textoInformacao3</param>
+                    <param id="1" name="Layer">&quot;gui&quot;</param>
+                    <param id="2" name="X">450</param>
+                    <param id="3" name="Y">90</param>
+                </action>
+                <action id="0" name="Set text" sid="983208182026848" type="textoInformacao3">
+                    <param id="0" name="Text">&quot;Parabéns!&quot;</param>
+                </action>
+                <action id="-15" name="Set visible" sid="860790417559762" type="textoInformacao3">
+                    <param id="0" name="Visibility">1</param>
                 </action>
             </actions>
         </event-block>
